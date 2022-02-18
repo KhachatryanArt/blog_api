@@ -1,6 +1,6 @@
 const Router = require("koa-router");
 const CommentController = require("../controllers/CommentController");
-const auth = require("../../middleware/auth");
+const auth = require("../middleware/auth");
 
 const router = new Router();
 

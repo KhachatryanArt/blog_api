@@ -1,7 +1,7 @@
 const Router = require("koa-router");
 const ImageController = require("../controllers/ImageController")
-const auth = require("../../middleware/auth");
-const upload = require("../../middleware/image")
+const auth = require("../middleware/auth");
+const upload = require("../middleware/image")
 
 const router = new Router();
 router.prefix("/api/v1/image");
